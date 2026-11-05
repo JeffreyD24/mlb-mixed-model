@@ -24,3 +24,4 @@ while :; do
   S=$((60 - (NOW - T0))); [ "$S" -gt 0 ] && sleep "$S"
 done
 save
+# feed loop: retrigger 23:48
